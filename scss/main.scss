@@ -2,6 +2,7 @@ body{
   color: white;
 }
 ul {
+  z-index: 2;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -32,25 +33,84 @@ li a:hover {
 
 .section{
   height: 700px;
-  border: 1px solid black;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
 }
 
-h1.name{
-  font-size: 50px;
-  color: white;
-  font-weight: bold;
+div.title-div{
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+
+  h1.name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    -webkit-animation-name: title-animation;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: title-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes title-animation {
+    from {left: 200px; color: rgba(255, 255, 255, 0);}
+    to {left: 0; color: rgba(255, 255, 255, 1)}
 }
 
-h1.job{
-  font-size: 50px;
-  color: white;
-  font-weight: bold;
+  h1.job{
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 5px;
+    position: relative;
+    -webkit-animation-name: job-animation;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: job-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes job-animation {
+    from {left: -200px; color: rgba(255, 255, 255, 0);}
+    to {left: 0; color: rgba(255, 255, 255, 1)}
+  }
+
+  a.learn-more{
+    background-color: #363636;
+    color: white;
+    border: none;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation-name: learn-more-animation;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-name: learn-more-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  a.learn-more:hover {
+    background-color: #111;
+    color: #fefefe;
+  }
+
+  @keyframes learn-more-animation {
+    from {top: 200px; opacity: 0;}
+    to {top: 0; opacity: 1;}
+  }
+
 }
+
 
 #home{
   background-image: url("https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/10257182_10153429353028008_2399847340401588383_o.jpg?_nc_cat=0&oh=2109fa94b8b7050a14ef4066ddbd86bd&oe=5B6472BD");
