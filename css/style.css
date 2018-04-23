@@ -111,14 +111,17 @@ div.title-div {
 
 #about-me {
   height: auto;
-  background-color: #fcfaf9; }
+  background: linear-gradient(0.25turn, #303030, #111, #303030);
+  box-shadow: 2px 2px 6px 0px white; }
+  #about-me .about-me-columns {
+    width: 80%;
+    margin: auto; }
   #about-me .section-title {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: 200;
-    border-bottom: 0.0625rem black solid;
     padding-bottom: 0.1875rem;
-    color: black;
+    color: white;
     text-align: center; }
   #about-me .image-of-me {
     height: 200px;
@@ -126,10 +129,10 @@ div.title-div {
     border-radius: 100%;
     margin: 1.25rem auto;
     background-image: url("../assets/images/Amir-2.jpg");
-    border: 0.0625rem black solid; }
+    border: 0.0625rem white solid; }
   #about-me .about-me-text {
     font-family: 'Raleway', sans-serif;
-    color: black;
+    color: white;
     font-size: 20px;
     font-weight: 300; }
 
@@ -180,14 +183,16 @@ div.title-div {
 
 #portfolio {
   height: auto;
-  background-color: #fcfaf9; }
+  background-image: url("../assets/images/background-image4.png");
+  background-size: cover;
+  box-shadow: 2px 2px 6px 0px white; }
   #portfolio .section-title {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: 200;
-    border-bottom: 0.0625rem black solid;
+    border-bottom: 0.0625rem white solid;
     padding-bottom: 3rem;
-    color: black;
+    color: white;
     text-align: center; }
 
 #contact {
