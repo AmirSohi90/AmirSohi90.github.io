@@ -125,11 +125,7 @@ div.title-div{
 
 #about-me{
     height: auto;
-    // background-image: url('../assets/images/background-image6.png');
-    // background-size: cover;
-    // background-color: #363636;
-      // background: linear-gradient(0.25turn, #111, #303030, #111);
-      background: linear-gradient(0.25turn, #303030, #111, #303030);
+      background: linear-gradient(0.25turn, #333, #111, #333);
     box-shadow: 2px 2px 6px 0px rgba(255,255,255,1);
     .about-me-columns{
       width: 80%;
@@ -137,12 +133,10 @@ div.title-div{
     }
   .section-title{
     font-family: 'Raleway', sans-serif;
-    // color: white;
     font-size: 50px;
     font-weight: 200;
-    // border-bottom: 1px white solid;
-    // border-bottom: 0.0625rem white solid;
-    padding-bottom: 0.1875rem;
+    border-bottom: 0.0625rem white solid;
+    padding-bottom: 3rem;
     color: white;
     text-align: center;
   }
@@ -201,22 +195,6 @@ div.title-div{
   }
 }
 
-#education{
-  height: auto;
-  background-color: #fcfaf9;
-  .section-title{
-    font-family: 'Raleway', sans-serif;
-    // color: white;
-    font-size: 50px;
-    font-weight: 200;
-    // border-bottom: 1px white solid;
-    border-bottom: 0.0625rem black solid;
-    padding-bottom: 3rem;
-    color: black;
-    text-align: center;
-  }
-}
-
 #portfolio{
   height: auto;
   background-image: url('../assets/images/background-image4.png');
@@ -224,14 +202,20 @@ div.title-div{
   box-shadow: 2px 2px 6px 0px rgba(255,255,255,1);
   .section-title{
     font-family: 'Raleway', sans-serif;
-    // color: white;
     font-size: 50px;
     font-weight: 200;
-    // border-bottom: 1px white solid;
     border-bottom: 0.0625rem white solid;
     padding-bottom: 3rem;
+    margin-bottom: 2rem;
     color: white;
     text-align: center;
+  }
+  .project-column{
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+    width: 48.5%;
+    margin: 8.65px auto;
   }
 }
 

@@ -111,7 +111,7 @@ div.title-div {
 
 #about-me {
   height: auto;
-  background: linear-gradient(0.25turn, #303030, #111, #303030);
+  background: linear-gradient(0.25turn, #333, #111, #333);
   box-shadow: 2px 2px 6px 0px white; }
   #about-me .about-me-columns {
     width: 80%;
@@ -120,7 +120,8 @@ div.title-div {
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
     font-weight: 200;
-    padding-bottom: 0.1875rem;
+    border-bottom: 0.0625rem white solid;
+    padding-bottom: 3rem;
     color: white;
     text-align: center; }
   #about-me .image-of-me {
@@ -169,18 +170,6 @@ div.title-div {
       align-items: center;
       margin: auto; }
 
-#education {
-  height: auto;
-  background-color: #fcfaf9; }
-  #education .section-title {
-    font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-    font-weight: 200;
-    border-bottom: 0.0625rem black solid;
-    padding-bottom: 3rem;
-    color: black;
-    text-align: center; }
-
 #portfolio {
   height: auto;
   background-image: url("../assets/images/background-image4.png");
@@ -192,8 +181,15 @@ div.title-div {
     font-weight: 200;
     border-bottom: 0.0625rem white solid;
     padding-bottom: 3rem;
+    margin-bottom: 2rem;
     color: white;
     text-align: center; }
+  #portfolio .project-column {
+    background-color: white;
+    color: black;
+    border: 1px black solid;
+    width: 48.5%;
+    margin: 8.65px auto; }
 
 #contact {
   height: auto;
