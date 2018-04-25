@@ -11,6 +11,15 @@
   position: fixed;
   top: 0;
   width: 100%; }
+  .navbar-container .navbar-li-left {
+    float: left;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-weight: 200;
+    color: #fcfaf9;
+    text-align: center;
+    padding: 0.875rem 1rem;
+    text-decoration: none; }
   .navbar-container .navbar-li {
     float: right;
     font-family: 'Raleway', sans-serif; }
@@ -21,6 +30,13 @@
     color: #fcfaf9;
     text-align: center;
     padding: 0.875rem 1rem;
+    text-decoration: none; }
+  .navbar-container .navbar-li-left .navbar-a {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-weight: 200;
+    color: #fcfaf9;
+    text-align: center;
     text-decoration: none; }
   .navbar-container .navbar-li .navbar-a:hover {
     background-color: #111;
@@ -38,7 +54,7 @@ div.title-div {
   text-align: right;
   position: absolute;
   z-index: 1;
-  top: 40%; }
+  top: calc((43.75rem - 52px) / 2); }
   div.title-div h1.name {
     font-family: 'Raleway', sans-serif;
     font-size: 3.125em;
@@ -180,7 +196,7 @@ div.title-div {
     color: white;
     text-align: center; }
   #portfolio .project-wrap {
-    width: 70%;
+    width: 80%;
     margin: auto; }
     #portfolio .project-wrap .project-column {
       background-color: white;
@@ -276,7 +292,9 @@ div.title-div {
 
 #contact {
   box-shadow: 2px 2px 6px 0px white;
-  background: black; }
+  background-image: url("../assets/images/contact.png");
+  background-size: cover;
+  height: calc(auto + 200px); }
   #contact .section-title {
     font-family: 'Raleway', sans-serif;
     font-size: 3.125em;
@@ -286,6 +304,19 @@ div.title-div {
     margin-bottom: 2rem;
     color: white;
     text-align: center; }
+  #contact .contact-div {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    width: 80%;
+    margin: auto; }
+    #contact .contact-div .contact-text {
+      margin-bottom: 1.5625rem; }
+    #contact .contact-div .button {
+      background-color: #333;
+      color: white; }
 
 #footer {
   height: 60px;
