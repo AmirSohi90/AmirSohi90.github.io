@@ -214,25 +214,25 @@ div.title-div {
         font-weight: 400;
         padding-left: 0.625rem; }
   #portfolio #project-one {
-    background-color: black;
+    background-image: url("../assets/images/click-n-pick.gif");
     background-position: center;
     background-size: cover;
     border-radius: 1%;
     border: 0.0625rem solid white; }
   #portfolio #project-two {
-    background-color: black;
+    background-image: url("../assets/images/dc-database.gif");
     background-position: center;
     background-size: cover;
     border-radius: 1%;
     border: 0.0625rem solid white; }
   #portfolio #project-three {
-    background-color: black;
+    background-image: url("../assets/images/poober.gif");
     background-position: center;
     background-size: cover;
     border-radius: 1%;
     border: 0.0625rem solid white; }
   #portfolio #project-four {
-    background-color: black;
+    background-image: url("../assets/images/shwap.gif");
     background-position: center;
     background-size: cover;
     border-radius: 1%;
