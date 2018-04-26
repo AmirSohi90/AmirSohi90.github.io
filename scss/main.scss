@@ -66,7 +66,8 @@ div.title-div{
   text-align: right;
   position: absolute;
   z-index: 1;
-  top: calc((43.75rem - 52px) / 2);
+  // top: calc((43.75rem - 52px) / 2);
+  top: 40vh;
 
   h1.name{
     font-family: 'Raleway', sans-serif;
