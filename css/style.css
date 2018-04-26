@@ -288,7 +288,7 @@ div.title-div {
       color: white;
       border: none; }
     #contact .contact-div .button:hover {
-      background-color: black; }
+      background-color: #111; }
 
 #footer {
   height: 60px;
