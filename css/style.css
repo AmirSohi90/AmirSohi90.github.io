@@ -118,7 +118,7 @@ div.title-div {
     top: 0;
     opacity: 1; } }
 #home {
-  background-image: url("../assets/images/title.jpg");
+  background-image: url("../assets/images/title.png");
   background-size: cover; }
 
 #about-me {
@@ -141,7 +141,7 @@ div.title-div {
     width: 12.5rem;
     border-radius: 100%;
     margin: 1.25rem auto;
-    background-image: url("../assets/images/Amir-2.jpg");
+    background-image: url("../assets/images/Amir-2.png");
     border: 0.0625rem white solid; }
   #about-me .about-me-text {
     font-family: 'Raleway', sans-serif;
@@ -150,7 +150,7 @@ div.title-div {
     font-weight: 300; }
 
 #skills {
-  background-image: url("../assets/images/title3.jpg");
+  background-image: url("../assets/images/title3.png");
   background-size: cover;
   height: auto; }
   #skills .section-title {
@@ -285,7 +285,10 @@ div.title-div {
       margin-bottom: 1.5625rem; }
     #contact .contact-div .button {
       background-color: #333;
-      color: white; }
+      color: white;
+      border: none; }
+    #contact .contact-div .button:hover {
+      background-color: black; }
 
 #footer {
   height: 60px;
