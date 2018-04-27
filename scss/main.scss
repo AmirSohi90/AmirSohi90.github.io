@@ -292,8 +292,18 @@ div.title-div{
     font-weight: 600;
   }
   .project-link{
-    color: #bdf8ff;
-    padding: 15px;
+    color: white;
+    background-color: #333;
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .project-link:hover{
+    color: white;
+    background-color: #111;
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
   }
   .project-description{
     font-weight: 400;
@@ -657,10 +667,18 @@ div.title-div{
       text-align: center;
     }
     .project-link{
-      color: #bdf8ff;
-      padding: 15px;
-      text-align: center;
-      font-size: 0.9em;
+      color: white;
+      background-color: #333;
+      border: none;
+      margin-bottom: 10px;
+      font-family: 'Raleway', sans-serif;
+    }
+    .project-link:hover{
+      color: white;
+      background-color: #111;
+      border: none;
+      margin-bottom: 10px;
+      font-family: 'Raleway', sans-serif;
     }
     .project-description{
       font-weight: 400;

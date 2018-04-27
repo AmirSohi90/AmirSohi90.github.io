@@ -252,8 +252,17 @@ div.title-div {
     font-size: 30px;
     font-weight: 600; }
   .hover-div .project-link {
-    color: #bdf8ff;
-    padding: 15px; }
+    color: white;
+    background-color: #333;
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif; }
+  .hover-div .project-link:hover {
+    color: white;
+    background-color: #111;
+    border: none;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif; }
   .hover-div .project-description {
     font-weight: 400;
     font-size: 20px;
@@ -562,10 +571,17 @@ div.title-div {
       font-weight: 600;
       text-align: center; }
     .hover-div .project-link {
-      color: #bdf8ff;
-      padding: 15px;
-      text-align: center;
-      font-size: 0.9em; }
+      color: white;
+      background-color: #333;
+      border: none;
+      margin-bottom: 10px;
+      font-family: 'Raleway', sans-serif; }
+    .hover-div .project-link:hover {
+      color: white;
+      background-color: #111;
+      border: none;
+      margin-bottom: 10px;
+      font-family: 'Raleway', sans-serif; }
     .hover-div .project-description {
       font-weight: 400;
       font-size: 20px;
